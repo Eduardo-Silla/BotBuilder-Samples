@@ -14,7 +14,7 @@
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
             "outFiles": [
-                "${workspaceFolder}/lib/**/*.js"
+                "${workspaceFolder}/dist/**/*.js"
             ],
             "preLaunchTask": "npm: watch"
         },
@@ -28,7 +28,7 @@
                 "--extensionTestsPath=${workspaceFolder}/lib/test"
             ],
             "outFiles": [
-                "${workspaceFolder}/lib/test/**/*.js"
+                "${workspaceFolder}/out/test/**/*.js"
             ],
             "preLaunchTask": "npm: watch"
         }
